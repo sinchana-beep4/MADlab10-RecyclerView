@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu"
+        android:title=""
+        android:icon="@drawable/menu_icon"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:title="@string/home"
+                android:icon="@drawable/icon"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/shop"
+                android:title="@string/shop"
+                android:icon="@drawable/shop"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/about"
+                android:title="@string/about"
+                android:icon="@drawable/about"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/contact_us"
+                android:title="@string/contact_us"
+                android:icon="@drawable/contact"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
+</menu>

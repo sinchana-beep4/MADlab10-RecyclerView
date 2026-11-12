@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#8BBB92"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bakery"
+        app:layout_constraintTop_toBottomOf="@id/tool"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+    />
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="#12544F"
+    />
+
+    <ImageView
+        android:id="@+id/cookie"
+        android:layout_marginTop="10dp"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:contentDescription="@string/chocochip_cookies"
+        android:src="@drawable/cookie"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/heading" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cookie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#12544F"
+        android:text="@string/proceed_to"
+        android:textColor="@color/white"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
