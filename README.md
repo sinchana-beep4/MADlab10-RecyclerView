@@ -8,8 +8,7 @@ chocolate chip cookie image, and a **Proceed to** button. The
 application demonstrates three Android menu types: an **Option Menu**, a
 **Context Menu**, and a **Popup Menu**.
 
-![
-![Application](image/firstView.jpg)
+![Application](images/firstView.jpg)
 
 ## Menus Used in the Application
 
@@ -19,7 +18,7 @@ An **Option Menu** provides the main navigation and actions for an
 activity. It is commonly displayed in the app bar or toolbar, usually
 through the menu icon at the top-right corner.
 
-![Options Menu](image/optionsMenuWithIcons.jpg)
+![Options Menu](images/optionsMenuWithIcons.jpg)
 
 In this application, the Option Menu is opened using the drop-down arrow
 in the top app bar. It contains:
@@ -38,7 +37,7 @@ A **Context Menu** displays actions related to a particular view or
 item. It is generally opened when the user touches and holds
 (long-presses) that view.
 
-![Context Menu](image/contextMenu.jpg)
+![Context Menu](images/contextMenu.jpg)
 
 In this application, the Context Menu is associated with the chocolate
 chip cookie image. When the image is long-pressed, the menu displays:
@@ -58,7 +57,7 @@ A **Popup Menu** displays a small list of actions anchored to a specific
 view. It appears when the user taps the view associated with the menu
 and disappears after an action is selected or the menu is dismissed.
 
-![Popup Menu](image/popup.jpg)
+![Popup Menu](images/popup.jpg)
 
 In this application, the Popup Menu is associated with the **Proceed
 to** button. Tapping the button displays:
